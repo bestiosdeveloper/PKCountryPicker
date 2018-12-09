@@ -4,7 +4,7 @@
 [![CocoaPods](https://img.shields.io/cocoapods/p/FaveButton.svg)]()
 [![codebeat badge](https://codebeat.co/badges/580517f8-efc8-4d20-89aa-900531610144)]()
 
-A Swift based helper class that will provide the loader for your application, on a view or on the window.
+A Swift based helper class that will provide all the countries in the word with their basic information like flag, county name, country code, ISO code, NSN limits and much more.
 
 
 ![preview](https://github.com/bestiosdeveloper/PKCountryPicker/blob/master/PKCountryPickerViewDemo/PKCountryPicker.gif)
