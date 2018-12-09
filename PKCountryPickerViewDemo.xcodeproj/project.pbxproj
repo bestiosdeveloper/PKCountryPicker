@@ -20,7 +20,7 @@
 		8419F74921BA999A003D459D /* PKCountryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8419F74821BA999A003D459D /* PKCountryView.xib */; };
 		8428B4E421BB227C001DBBF0 /* PKCountryPickerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428B4E321BB227C001DBBF0 /* PKCountryPickerSettings.swift */; };
 		8428B4E921BD5DE4001DBBF0 /* PKCountryPicker.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8428B4E721BD5DE4001DBBF0 /* PKCountryPicker.gif */; };
-		8428B4EA21BD5DE4001DBBF0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8428B4E821BD5DE4001DBBF0 /* README.md */; };
+		8428B4EC21BD62D8001DBBF0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8428B4EB21BD62D8001DBBF0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		8419F74821BA999A003D459D /* PKCountryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PKCountryView.xib; sourceTree = "<group>"; };
 		8428B4E321BB227C001DBBF0 /* PKCountryPickerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKCountryPickerSettings.swift; sourceTree = "<group>"; };
 		8428B4E721BD5DE4001DBBF0 /* PKCountryPicker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PKCountryPicker.gif; sourceTree = "<group>"; };
-		8428B4E821BD5DE4001DBBF0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8428B4EB21BD62D8001DBBF0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +74,8 @@
 			children = (
 				8419F53821BA8C7A003D459D /* PKCountryPicker */,
 				8428B4E721BD5DE4001DBBF0 /* PKCountryPicker.gif */,
-				8428B4E821BD5DE4001DBBF0 /* README.md */,
 				8419F52621BA8C45003D459D /* AppDelegate.swift */,
+				8428B4EB21BD62D8001DBBF0 /* README.md */,
 				8419F52821BA8C45003D459D /* ViewController.swift */,
 				8419F52A21BA8C45003D459D /* Main.storyboard */,
 				8419F52D21BA8C47003D459D /* Assets.xcassets */,
@@ -171,7 +171,7 @@
 				8428B4E921BD5DE4001DBBF0 /* PKCountryPicker.gif in Resources */,
 				8419F63B21BA8DF8003D459D /* countryData.json in Resources */,
 				8419F74321BA9201003D459D /* PKCountryFlag.xcassets in Resources */,
-				8428B4EA21BD5DE4001DBBF0 /* README.md in Resources */,
+				8428B4EC21BD62D8001DBBF0 /* README.md in Resources */,
 				8419F52C21BA8C45003D459D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
