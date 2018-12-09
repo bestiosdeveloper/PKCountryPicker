@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PKCountryPickerViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oj1-CL-sQI">
+                                <rect key="frame" x="145.5" y="328.5" width="84" height="30"/>
+                                <state key="normal" title="Open Picker"/>
+                                <connections>
+                                    <action selector="openPickerTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lhs-TV-B1g"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Country Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkP-iD-LTY">
+                                <rect key="frame" x="25" y="50" width="146.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hmC-mb-5jt">
+                                <rect key="frame" x="93" y="91" width="262" height="32"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkr-O6-Wh7">
+                                        <rect key="frame" x="0.0" y="0.0" width="202" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zvg-3O-uoz">
+                                        <rect key="frame" x="202" y="0.0" width="60" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="MQ5-ng-ce1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DYd-b6-vTX">
+                                <rect key="frame" x="25" y="91" width="48" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Ph1-Fq-D9N"/>
+                                    <constraint firstAttribute="width" secondItem="DYd-b6-vTX" secondAttribute="height" multiplier="3:2" id="R7h-H1-KwO"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQr-sh-G0J">
+                                <rect key="frame" x="25" y="153" width="86" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="YlP-Tg-zeD"/>
+                                </constraints>
+                                <state key="normal" title="Light Theme"/>
+                                <connections>
+                                    <action selector="lightThemeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tKT-pN-WI9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnR-em-vTN">
+                                <rect key="frame" x="161" y="153" width="84" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="zmu-wo-2YR"/>
+                                </constraints>
+                                <state key="normal" title="Dark Theme"/>
+                                <connections>
+                                    <action selector="darkThemeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Au-NB-g1a"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zkP-iD-LTY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="5kq-J7-VyJ"/>
+                            <constraint firstItem="RnR-em-vTN" firstAttribute="bottom" secondItem="BQr-sh-G0J" secondAttribute="bottom" id="6Nd-2F-67G"/>
+                            <constraint firstItem="oj1-CL-sQI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AwI-yq-aRN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hmC-mb-5jt" secondAttribute="trailing" constant="20" id="P01-We-cmd"/>
+                            <constraint firstItem="BQr-sh-G0J" firstAttribute="top" secondItem="DYd-b6-vTX" secondAttribute="bottom" constant="30" id="VZp-Do-KIK"/>
+                            <constraint firstItem="RnR-em-vTN" firstAttribute="leading" secondItem="BQr-sh-G0J" secondAttribute="trailing" constant="50" id="ZH0-UZ-R6Y"/>
+                            <constraint firstItem="hmC-mb-5jt" firstAttribute="bottom" secondItem="DYd-b6-vTX" secondAttribute="bottom" id="akX-QT-Hod"/>
+                            <constraint firstItem="zkP-iD-LTY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="gUa-bD-3by"/>
+                            <constraint firstItem="hmC-mb-5jt" firstAttribute="top" secondItem="DYd-b6-vTX" secondAttribute="top" id="geq-Rm-7zg"/>
+                            <constraint firstItem="BQr-sh-G0J" firstAttribute="leading" secondItem="DYd-b6-vTX" secondAttribute="leading" id="oG2-cR-ggI"/>
+                            <constraint firstItem="oj1-CL-sQI" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="omV-aS-sVi"/>
+                            <constraint firstItem="hmC-mb-5jt" firstAttribute="leading" secondItem="DYd-b6-vTX" secondAttribute="trailing" constant="20" id="tX9-kW-5Kg"/>
+                            <constraint firstItem="DYd-b6-vTX" firstAttribute="leading" secondItem="zkP-iD-LTY" secondAttribute="leading" id="u5y-km-SxW"/>
+                            <constraint firstItem="RnR-em-vTN" firstAttribute="top" secondItem="BQr-sh-G0J" secondAttribute="top" id="y35-cz-MwJ"/>
+                            <constraint firstItem="DYd-b6-vTX" firstAttribute="top" secondItem="zkP-iD-LTY" secondAttribute="bottom" constant="24" id="ykb-sw-yOK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="countryCodeLabel" destination="Zvg-3O-uoz" id="cp7-76-uvU"/>
+                        <outlet property="countryImageView" destination="DYd-b6-vTX" id="0Kg-xI-Lf2"/>
+                        <outlet property="countryNameLabel" destination="Lkr-O6-Wh7" id="eYO-ws-x33"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
+        </scene>
+    </scenes>
+</document>

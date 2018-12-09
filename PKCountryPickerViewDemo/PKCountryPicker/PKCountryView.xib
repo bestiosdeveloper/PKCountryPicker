@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PKCountryView" customModule="PKCountryPickerViewDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="494" height="69"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Js-s9-cOr">
+                    <rect key="frame" x="25" y="10" width="73.5" height="49"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="1Js-s9-cOr" secondAttribute="height" multiplier="3:2" id="yzq-9D-IqR"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llD-fy-enh">
+                    <rect key="frame" x="123" y="24" width="266" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhn-zX-XJ4">
+                    <rect key="frame" x="399" y="24" width="70" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="Oyk-wJ-Xcp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="mhn-zX-XJ4" secondAttribute="trailing" constant="25" id="2TE-1r-Cvt"/>
+                <constraint firstItem="llD-fy-enh" firstAttribute="centerY" secondItem="1Js-s9-cOr" secondAttribute="centerY" id="5n4-ER-PMQ"/>
+                <constraint firstItem="1Js-s9-cOr" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="Avo-SL-swy"/>
+                <constraint firstItem="llD-fy-enh" firstAttribute="leading" secondItem="1Js-s9-cOr" secondAttribute="trailing" constant="24.5" id="ERf-LZ-Mlp"/>
+                <constraint firstItem="mhn-zX-XJ4" firstAttribute="centerY" secondItem="llD-fy-enh" secondAttribute="centerY" id="OO7-4i-13V"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="1Js-s9-cOr" secondAttribute="bottom" constant="10" id="ilg-0K-grf"/>
+                <constraint firstItem="mhn-zX-XJ4" firstAttribute="leading" secondItem="llD-fy-enh" secondAttribute="trailing" constant="10" id="nH5-po-DZk"/>
+                <constraint firstItem="1Js-s9-cOr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="yje-VB-d7X"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="countryCodeLabel" destination="mhn-zX-XJ4" id="HKX-0A-vLO"/>
+                <outlet property="countryNameLabel" destination="llD-fy-enh" id="oqK-bv-E4C"/>
+                <outlet property="flagImageView" destination="1Js-s9-cOr" id="1gb-BW-64M"/>
+            </connections>
+            <point key="canvasLocation" x="233.59999999999999" y="-114.69265367316342"/>
+        </view>
+    </objects>
+</document>
