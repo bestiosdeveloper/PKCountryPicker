@@ -7,7 +7,7 @@
 A Swift based helper class that will provide the loader for your application, on a view or on the window.
 
 
-![preview](https://github.com/kumarpramod017/PKCountryPicker/blob/master/PKLoader.gif)
+![preview](https://github.com/bestiosdeveloper/PKCountryPicker/blob/master/PKCountryPickerViewDemo/PKCountryPicker.gif)
 
 
 ## Requirements
