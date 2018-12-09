@@ -1,8 +1,8 @@
 
 # PKCountryPicker
 
-[![CocoaPods](https://img.shields.io/cocoapods/p/FaveButton.svg)]()
-[![codebeat badge](https://codebeat.co/badges/580517f8-efc8-4d20-89aa-900531610144)]()
+[![CocoaPods](https://img.shields.io/cocoapods/p/FaveButton.svg)](https://cocoapods.org/pods/PKCountryPicker)
+[![codebeat badge](https://codebeat.co/badges/580517f8-efc8-4d20-89aa-900531610144)](https://codebeat.co/projects/github-com-bestiosdeveloper-pkcountrypicker-master)
 
 A Swift based helper class that will provide all the countries in the word with their basic information like flag, county name, country code, ISO code, NSN limits and much more.
 
