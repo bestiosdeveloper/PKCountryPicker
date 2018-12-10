@@ -28,6 +28,6 @@ A Swift based helper class that will provide all the countries in the word with 
 
   s.source       = { :git => "https://github.com/bestiosdeveloper/PKCountryPicker.git", :tag => "#{s.version.to_s}" }
   s.source_files  = 'PKCountryPickerViewDemo/PKCountryPicker/*'
-  s.resources = ['PKCountryPickerViewDemo/PKCountryPicker/*']
+  s.resources = 'PKCountryPickerViewDemo/PKCountryPicker/*'
 
 end
