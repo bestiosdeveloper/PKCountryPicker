@@ -1,9 +1,2595 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:../PKCountryPickerViewDemo/README.md">
-   </FileRef>
+   <Group
+      location = "group:/Users/admin/Desktop/PK/Projects/MyCustom/PKCountryPickerDemo/PKCountryPickerViewDemo/PKCountryPicker"
+      name = "PKCountryPicker">
+      <FileRef
+         location = "group:PKCountryView.xib">
+      </FileRef>
+      <FileRef
+         location = "group:PKCountryPicker.swift">
+      </FileRef>
+      <FileRef
+         location = "group:PKCountryModel.swift">
+      </FileRef>
+      <FileRef
+         location = "group:PKCountryView.swift">
+      </FileRef>
+      <Group
+         location = "group:PKCountryFlag.xcassets"
+         name = "PKCountryFlag.xcassets">
+         <Group
+            location = "group:lv.imageset"
+            name = "lv.imageset">
+            <FileRef
+               location = "group:lv.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sz.imageset"
+            name = "sz.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:sz.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gi.imageset"
+            name = "gi.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:gi.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gh.imageset"
+            name = "gh.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:gh.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:et.imageset"
+            name = "et.imageset">
+            <FileRef
+               location = "group:et.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:eu.imageset"
+            name = "eu.imageset">
+            <FileRef
+               location = "group:eu.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ws.imageset"
+            name = "ws.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:ws.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ca.imageset"
+            name = "ca.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:ca.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:me.imageset"
+            name = "me.imageset">
+            <FileRef
+               location = "group:me.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:md.imageset"
+            name = "md.imageset">
+            <FileRef
+               location = "group:md.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:pt.imageset"
+            name = "pt.imageset">
+            <FileRef
+               location = "group:pt.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:kp.imageset"
+            name = "kp.imageset">
+            <FileRef
+               location = "group:kp.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:va.imageset"
+            name = "va.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:va.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:il.imageset"
+            name = "il.imageset">
+            <FileRef
+               location = "group:il.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:im.imageset"
+            name = "im.imageset">
+            <FileRef
+               location = "group:im.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bs.imageset"
+            name = "bs.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:bs.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:br.imageset"
+            name = "br.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:br.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ck.imageset"
+            name = "ck.imageset">
+            <FileRef
+               location = "group:ck.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:aw.imageset"
+            name = "aw.imageset">
+            <FileRef
+               location = "group:aw.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gb-nir.imageset"
+            name = "gb-nir.imageset">
+            <FileRef
+               location = "group:gb-nir.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:hu.imageset"
+            name = "hu.imageset">
+            <FileRef
+               location = "group:hu.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ht.imageset"
+            name = "ht.imageset">
+            <FileRef
+               location = "group:ht.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gb.imageset"
+            name = "gb.imageset">
+            <FileRef
+               location = "group:gb.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:na.imageset"
+            name = "na.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:na.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:by.imageset"
+            name = "by.imageset">
+            <FileRef
+               location = "group:by.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tv.imageset"
+            name = "tv.imageset">
+            <FileRef
+               location = "group:tv.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tw.imageset"
+            name = "tw.imageset">
+            <FileRef
+               location = "group:tw.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:kz.imageset"
+            name = "kz.imageset">
+            <FileRef
+               location = "group:kz.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:dm.imageset"
+            name = "dm.imageset">
+            <FileRef
+               location = "group:dm.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mo.imageset"
+            name = "mo.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:mo.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mn.imageset"
+            name = "mn.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:mn.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bg.imageset"
+            name = "bg.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:bg.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bf.imageset"
+            name = "bf.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:bf.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:th.imageset"
+            name = "th.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:th.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ke.imageset"
+            name = "ke.imageset">
+            <FileRef
+               location = "group:ke.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:vu.imageset"
+            name = "vu.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:vu.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:fo.imageset"
+            name = "fo.imageset">
+            <FileRef
+               location = "group:fo.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mq.imageset"
+            name = "mq.imageset">
+            <FileRef
+               location = "group:mq.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mp.imageset"
+            name = "mp.imageset">
+            <FileRef
+               location = "group:mp.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:pa.imageset"
+            name = "pa.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:pa.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:om.imageset"
+            name = "om.imageset">
+            <FileRef
+               location = "group:om.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ai.imageset"
+            name = "ai.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:ai.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cu.imageset"
+            name = "cu.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:cu.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:uz.imageset"
+            name = "uz.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:uz.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:wf.imageset"
+            name = "wf.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:wf.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:hk.imageset"
+            name = "hk.imageset">
+            <FileRef
+               location = "group:hk.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:zm.imageset"
+            name = "zm.imageset">
+            <FileRef
+               location = "group:zm.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:so.imageset"
+            name = "so.imageset">
+            <FileRef
+               location = "group:so.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:lb.imageset"
+            name = "lb.imageset">
+            <FileRef
+               location = "group:lb.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sn.imageset"
+            name = "sn.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:sn.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:lc.imageset"
+            name = "lc.imageset">
+            <FileRef
+               location = "group:lc.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:pk.imageset"
+            name = "pk.imageset">
+            <FileRef
+               location = "group:pk.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:rw.imageset"
+            name = "rw.imageset">
+            <FileRef
+               location = "group:rw.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mz.imageset"
+            name = "mz.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:mz.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ir.imageset"
+            name = "ir.imageset">
+            <FileRef
+               location = "group:ir.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:is.imageset"
+            name = "is.imageset">
+            <FileRef
+               location = "group:is.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:kn.imageset"
+            name = "kn.imageset">
+            <FileRef
+               location = "group:kn.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tc.imageset"
+            name = "tc.imageset">
+            <FileRef
+               location = "group:tc.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bm.imageset"
+            name = "bm.imageset">
+            <FileRef
+               location = "group:bm.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bl.imageset"
+            name = "bl.imageset">
+            <FileRef
+               location = "group:bl.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:nu.imageset"
+            name = "nu.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:nu.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:se.imageset"
+            name = "se.imageset">
+            <FileRef
+               location = "group:se.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:li.imageset"
+            name = "li.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:li.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sd.imageset"
+            name = "sd.imageset">
+            <FileRef
+               location = "group:sd.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gw.imageset"
+            name = "gw.imageset">
+            <FileRef
+               location = "group:gw.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:to.imageset"
+            name = "to.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:to.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tn.imageset"
+            name = "tn.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:tn.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ba.imageset"
+            name = "ba.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:ba.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mv.imageset"
+            name = "mv.imageset">
+            <FileRef
+               location = "group:mv.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mw.imageset"
+            name = "mw.imageset">
+            <FileRef
+               location = "group:mw.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:pf.imageset"
+            name = "pf.imageset">
+            <FileRef
+               location = "group:pf.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:pg.imageset"
+            name = "pg.imageset">
+            <FileRef
+               location = "group:pg.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:fi.imageset"
+            name = "fi.imageset">
+            <FileRef
+               location = "group:fi.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ye.imageset"
+            name = "ye.imageset">
+            <FileRef
+               location = "group:ye.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:jp.imageset"
+            name = "jp.imageset">
+            <FileRef
+               location = "group:jp.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:hm.imageset"
+            name = "hm.imageset">
+            <FileRef
+               location = "group:hm.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:an.imageset"
+            name = "an.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:an.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ao.imageset"
+            name = "ao.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:ao.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cr.imageset"
+            name = "cr.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:cr.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sh.imageset"
+            name = "sh.imageset">
+            <FileRef
+               location = "group:sh.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:si.imageset"
+            name = "si.imageset">
+            <FileRef
+               location = "group:si.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:eg.imageset"
+            name = "eg.imageset">
+            <FileRef
+               location = "group:eg.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:pl.imageset"
+            name = "pl.imageset">
+            <FileRef
+               location = "group:pl.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:pm.imageset"
+            name = "pm.imageset">
+            <FileRef
+               location = "group:pm.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bj.imageset"
+            name = "bj.imageset">
+            <FileRef
+               location = "group:bj.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:it.imageset"
+            name = "it.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:it.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:kh.imageset"
+            name = "kh.imageset">
+            <FileRef
+               location = "group:kh.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ki.imageset"
+            name = "ki.imageset">
+            <FileRef
+               location = "group:ki.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:td.imageset"
+            name = "td.imageset">
+            <FileRef
+               location = "group:td.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:za.imageset"
+            name = "za.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:za.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gp.imageset"
+            name = "gp.imageset">
+            <FileRef
+               location = "group:gp.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gq.imageset"
+            name = "gq.imageset">
+            <FileRef
+               location = "group:gq.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:nr.imageset"
+            name = "nr.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:nr.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sb.imageset"
+            name = "sb.imageset">
+            <FileRef
+               location = "group:sb.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sc.imageset"
+            name = "sc.imageset">
+            <FileRef
+               location = "group:sc.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cy.imageset"
+            name = "cy.imageset">
+            <FileRef
+               location = "group:cy.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cx.imageset"
+            name = "cx.imageset">
+            <FileRef
+               location = "group:cx.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ad.imageset"
+            name = "ad.imageset">
+            <FileRef
+               location = "group:ad.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ae.imageset"
+            name = "ae.imageset">
+            <FileRef
+               location = "group:ae.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gn.imageset"
+            name = "gn.imageset">
+            <FileRef
+               location = "group:gn.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:es.imageset"
+            name = "es.imageset">
+            <FileRef
+               location = "group:es.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:er.imageset"
+            name = "er.imageset">
+            <FileRef
+               location = "group:er.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:qa.imageset"
+            name = "qa.imageset">
+            <FileRef
+               location = "group:qa.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:nl.imageset"
+            name = "nl.imageset">
+            <FileRef
+               location = "group:nl.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:az.imageset"
+            name = "az.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:az.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cg.imageset"
+            name = "cg.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:cg.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cf.imageset"
+            name = "cf.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:cf.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:je.imageset"
+            name = "je.imageset">
+            <FileRef
+               location = "group:je.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ro.imageset"
+            name = "ro.imageset">
+            <FileRef
+               location = "group:ro.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mc.imageset"
+            name = "mc.imageset">
+            <FileRef
+               location = "group:mc.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:pr.imageset"
+            name = "pr.imageset">
+            <FileRef
+               location = "group:pr.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ps.imageset"
+            name = "ps.imageset">
+            <FileRef
+               location = "group:ps.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bt.imageset"
+            name = "bt.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:bt.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:kw.imageset"
+            name = "kw.imageset">
+            <FileRef
+               location = "group:kw.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tz.imageset"
+            name = "tz.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:tz.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:vg.imageset"
+            name = "vg.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:vg.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:hr.imageset"
+            name = "hr.imageset">
+            <FileRef
+               location = "group:hr.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:jo.imageset"
+            name = "jo.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:jo.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cm.imageset"
+            name = "cm.imageset">
+            <FileRef
+               location = "group:cm.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cl.imageset"
+            name = "cl.imageset">
+            <FileRef
+               location = "group:cl.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:aq.imageset"
+            name = "aq.imageset">
+            <FileRef
+               location = "group:aq.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:nf.imageset"
+            name = "nf.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:nf.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ng.imageset"
+            name = "ng.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:ng.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sv.imageset"
+            name = "sv.imageset">
+            <FileRef
+               location = "group:sv.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gd.imageset"
+            name = "gd.imageset">
+            <FileRef
+               location = "group:gd.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ge.imageset"
+            name = "ge.imageset">
+            <FileRef
+               location = "group:ge.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:py.imageset"
+            name = "py.imageset">
+            <FileRef
+               location = "group:py.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mh.imageset"
+            name = "mh.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:mh.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:re.imageset"
+            name = "re.imageset">
+            <FileRef
+               location = "group:re.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:dj.imageset"
+            name = "dj.imageset">
+            <FileRef
+               location = "group:dj.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:dk.imageset"
+            name = "dk.imageset">
+            <FileRef
+               location = "group:dk.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mx.imageset"
+            name = "mx.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:mx.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ru.imageset"
+            name = "ru.imageset">
+            <FileRef
+               location = "group:ru.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:my.imageset"
+            name = "my.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:my.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ph.imageset"
+            name = "ph.imageset">
+            <FileRef
+               location = "group:ph.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:dz.imageset"
+            name = "dz.imageset">
+            <FileRef
+               location = "group:dz.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:km.imageset"
+            name = "km.imageset">
+            <FileRef
+               location = "group:km.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:iq.imageset"
+            name = "iq.imageset">
+            <FileRef
+               location = "group:iq.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gb-wls.imageset"
+            name = "gb-wls.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:gb-wls.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bn.imageset"
+            name = "bn.imageset">
+            <FileRef
+               location = "group:bn.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bo.imageset"
+            name = "bo.imageset">
+            <FileRef
+               location = "group:bo.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:lk.imageset"
+            name = "lk.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:lk.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sg.imageset"
+            name = "sg.imageset">
+            <FileRef
+               location = "group:sg.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gt.imageset"
+            name = "gt.imageset">
+            <FileRef
+               location = "group:gt.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gu.imageset"
+            name = "gu.imageset">
+            <FileRef
+               location = "group:gu.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:eh.imageset"
+            name = "eh.imageset">
+            <FileRef
+               location = "group:eh.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:us.imageset"
+            name = "us.imageset">
+            <FileRef
+               location = "group:us.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bd.imageset"
+            name = "bd.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:bd.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:be.imageset"
+            name = "be.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:be.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tk.imageset"
+            name = "tk.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:tk.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:kg.imageset"
+            name = "kg.imageset">
+            <FileRef
+               location = "group:kg.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tj.imageset"
+            name = "tj.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:tj.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:fm.imageset"
+            name = "fm.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:fm.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mr.imageset"
+            name = "mr.imageset">
+            <FileRef
+               location = "group:mr.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ms.imageset"
+            name = "ms.imageset">
+            <FileRef
+               location = "group:ms.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cw.imageset"
+            name = "cw.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:cw.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cv.imageset"
+            name = "cv.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:cv.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:uy.imageset"
+            name = "uy.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:uy.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ec.imageset"
+            name = "ec.imageset">
+            <FileRef
+               location = "group:ec.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gb-eng.imageset"
+            name = "gb-eng.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:gb-eng.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:la.imageset"
+            name = "la.imageset">
+            <FileRef
+               location = "group:la.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sl.imageset"
+            name = "sl.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:sl.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sm.imageset"
+            name = "sm.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:sm.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:at.imageset"
+            name = "at.imageset">
+            <FileRef
+               location = "group:at.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:au.imageset"
+            name = "au.imageset">
+            <FileRef
+               location = "group:au.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ci.imageset"
+            name = "ci.imageset">
+            <FileRef
+               location = "group:ci.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ch.imageset"
+            name = "ch.imageset">
+            <FileRef
+               location = "group:ch.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ug.imageset"
+            name = "ug.imageset">
+            <FileRef
+               location = "group:ug.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ga.imageset"
+            name = "ga.imageset">
+            <FileRef
+               location = "group:ga.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sr.imageset"
+            name = "sr.imageset">
+            <FileRef
+               location = "group:sr.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ss.imageset"
+            name = "ss.imageset">
+            <FileRef
+               location = "group:ss.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:nc.imageset"
+            name = "nc.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:nc.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bz.imageset"
+            name = "bz.imageset">
+            <FileRef
+               location = "group:bz.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ky.imageset"
+            name = "ky.imageset">
+            <FileRef
+               location = "group:ky.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tt.imageset"
+            name = "tt.imageset">
+            <FileRef
+               location = "group:tt.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ie.imageset"
+            name = "ie.imageset">
+            <FileRef
+               location = "group:ie.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:vi.imageset"
+            name = "vi.imageset">
+            <FileRef
+               location = "group:vi.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:id.imageset"
+            name = "id.imageset">
+            <FileRef
+               location = "group:id.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:fr.imageset"
+            name = "fr.imageset">
+            <FileRef
+               location = "group:fr.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:do.imageset"
+            name = "do.imageset">
+            <FileRef
+               location = "group:do.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ml.imageset"
+            name = "ml.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:ml.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mm.imageset"
+            name = "mm.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:mm.png">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <Group
+            location = "group:ni.imageset"
+            name = "ni.imageset">
+            <FileRef
+               location = "group:ni.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sx.imageset"
+            name = "sx.imageset">
+            <FileRef
+               location = "group:sx.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:lu.imageset"
+            name = "lu.imageset">
+            <FileRef
+               location = "group:lu.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sy.imageset"
+            name = "sy.imageset">
+            <FileRef
+               location = "group:sy.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:lt.imageset"
+            name = "lt.imageset">
+            <FileRef
+               location = "group:lt.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:um.imageset"
+            name = "um.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:um.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cc.imageset"
+            name = "cc.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:cc.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:pw.imageset"
+            name = "pw.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:pw.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mf.imageset"
+            name = "mf.imageset">
+            <FileRef
+               location = "group:mf.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mg.imageset"
+            name = "mg.imageset">
+            <FileRef
+               location = "group:mg.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:de.imageset"
+            name = "de.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:de.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:yt.imageset"
+            name = "yt.imageset">
+            <FileRef
+               location = "group:yt.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:io.imageset"
+            name = "io.imageset">
+            <FileRef
+               location = "group:io.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:in.imageset"
+            name = "in.imageset">
+            <FileRef
+               location = "group:in.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:vc.imageset"
+            name = "vc.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:vc.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:kr.imageset"
+            name = "kr.imageset">
+            <FileRef
+               location = "group:kr.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bq.imageset"
+            name = "bq.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:bq.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ua.imageset"
+            name = "ua.imageset">
+            <FileRef
+               location = "group:ua.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:jm.imageset"
+            name = "jm.imageset">
+            <FileRef
+               location = "group:jm.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:as.imageset"
+            name = "as.imageset">
+            <FileRef
+               location = "group:as.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ar.imageset"
+            name = "ar.imageset">
+            <FileRef
+               location = "group:ar.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cn.imageset"
+            name = "cn.imageset">
+            <FileRef
+               location = "group:cn.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:co.imageset"
+            name = "co.imageset">
+            <FileRef
+               location = "group:co.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ly.imageset"
+            name = "ly.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:ly.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:st.imageset"
+            name = "st.imageset">
+            <FileRef
+               location = "group:st.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ne.imageset"
+            name = "ne.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:ne.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gg.imageset"
+            name = "gg.imageset">
+            <FileRef
+               location = "group:gg.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:xk.imageset"
+            name = "xk.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:xk.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gf.imageset"
+            name = "gf.imageset">
+            <FileRef
+               location = "group:gf.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:zw.imageset"
+            name = "zw.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:zw.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tr.imageset"
+            name = "tr.imageset">
+            <FileRef
+               location = "group:tr.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:vn.imageset"
+            name = "vn.imageset">
+            <FileRef
+               location = "group:vn.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mk.imageset"
+            name = "mk.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:mk.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gm.imageset"
+            name = "gm.imageset">
+            <FileRef
+               location = "group:gm.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gl.imageset"
+            name = "gl.imageset">
+            <FileRef
+               location = "group:gl.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:no.imageset"
+            name = "no.imageset">
+            <FileRef
+               location = "group:no.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:lr.imageset"
+            name = "lr.imageset">
+            <FileRef
+               location = "group:lr.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ls.imageset"
+            name = "ls.imageset">
+            <FileRef
+               location = "group:ls.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cd.imageset"
+            name = "cd.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:cd.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ax.imageset"
+            name = "ax.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:ax.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ma.imageset"
+            name = "ma.imageset">
+            <FileRef
+               location = "group:ma.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bw.imageset"
+            name = "bw.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:bw.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bv.imageset"
+            name = "bv.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:bv.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ve.imageset"
+            name = "ve.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:ve.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:rs.imageset"
+            name = "rs.imageset">
+            <FileRef
+               location = "group:rs.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:pn.imageset"
+            name = "pn.imageset">
+            <FileRef
+               location = "group:pn.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bi.imageset"
+            name = "bi.imageset">
+            <FileRef
+               location = "group:bi.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bh.imageset"
+            name = "bh.imageset">
+            <FileRef
+               location = "group:bh.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tf.imageset"
+            name = "tf.imageset">
+            <FileRef
+               location = "group:tf.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tg.imageset"
+            name = "tg.imageset">
+            <FileRef
+               location = "group:tg.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gs.imageset"
+            name = "gs.imageset">
+            <FileRef
+               location = "group:gs.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gr.imageset"
+            name = "gr.imageset">
+            <FileRef
+               location = "group:gr.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sa.imageset"
+            name = "sa.imageset">
+            <FileRef
+               location = "group:sa.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:np.imageset"
+            name = "np.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:np.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ag.imageset"
+            name = "ag.imageset">
+            <FileRef
+               location = "group:ag.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:af.imageset"
+            name = "af.imageset">
+            <FileRef
+               location = "group:af.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gb-sct.imageset"
+            name = "gb-sct.imageset">
+            <FileRef
+               location = "group:gb-sct.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cz.imageset"
+            name = "cz.imageset">
+            <FileRef
+               location = "group:cz.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tl.imageset"
+            name = "tl.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:tl.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:tm.imageset"
+            name = "tm.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:tm.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:bb.imageset"
+            name = "bb.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:bb.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:pe.imageset"
+            name = "pe.imageset">
+            <FileRef
+               location = "group:pe.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mu.imageset"
+            name = "mu.imageset">
+            <FileRef
+               location = "group:mu.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mt.imageset"
+            name = "mt.imageset">
+            <FileRef
+               location = "group:mt.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:fj.imageset"
+            name = "fj.imageset">
+            <FileRef
+               location = "group:fj.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:fk.imageset"
+            name = "fk.imageset">
+            <FileRef
+               location = "group:fk.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:hn.imageset"
+            name = "hn.imageset">
+            <FileRef
+               location = "group:hn.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:am.imageset"
+            name = "am.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:am.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:al.imageset"
+            name = "al.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:al.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:nz.imageset"
+            name = "nz.imageset">
+            <FileRef
+               location = "group:nz.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sk.imageset"
+            name = "sk.imageset">
+            <FileRef
+               location = "group:sk.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sj.imageset"
+            name = "sj.imageset">
+            <FileRef
+               location = "group:sj.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ee.imageset"
+            name = "ee.imageset">
+            <FileRef
+               location = "group:ee.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:gy.imageset"
+            name = "gy.imageset">
+            <FileRef
+               location = "group:gy.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:countryData.json">
+      </FileRef>
+      <FileRef
+         location = "group:PKCountryPickerSettings.swift">
+      </FileRef>
+   </Group>
    <FileRef
       location = "self:">
    </FileRef>

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PKCountryPicker"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "This framework will help you in choosing the country details like flag, county name, country code and much more."
 
   s.description  = <<-DESC
@@ -27,6 +27,7 @@ A Swift based helper class that will provide all the countries in the word with 
   s.ios.deployment_target = "11.0"
 
   s.source       = { :git => "https://github.com/bestiosdeveloper/PKCountryPicker.git", :tag => "#{s.version.to_s}" }
-  s.source_files  = 'PKCountryPickerViewDemo/PKCountryPicker/*'
+  s.source_files  = 'PKCountryPicker/*'
+  s.resources = ['PKCountryPicker/*']
 
 end
