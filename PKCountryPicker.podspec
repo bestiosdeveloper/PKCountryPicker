@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PKCountryPicker"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "This framework will help you in choosing the country details like flag, county name, country code and much more."
 
   s.description  = <<-DESC
