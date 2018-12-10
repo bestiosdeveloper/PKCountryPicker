@@ -39,7 +39,7 @@ open class PKCountryPicker: UIView {
     
     //MARK:- Methods
     //MARK:- Public
-    func chooseCountry(onViewController: UIViewController, selectionHandler: @escaping ((PKCountryModel)->Void)) {
+    public func chooseCountry(onViewController: UIViewController, selectionHandler: @escaping ((PKCountryModel)->Void)) {
         self.initialSetup()
         self.selectionHandler = selectionHandler
         self.parantVC = onViewController
